@@ -1,6 +1,6 @@
 *Exercise 1.1: Self-Play* Suppose, instead of playing against a random opponent, the reinforcement learning algorithm described above played against itself, with both sides learning. What do you think would happen in this case? Would it learn a different policy for selecting moves?
 
-Because policy learning are happening simulteneously against one another, i.e., the opponent strategy is not static, each will converge to the optimal policy against its opponent. The learnt stategy would be different from the one learnt from random opponent.
+Because policy learning are happening simulteneously against one another, i.e., the opponent strategy is not static, each will converge to the optimal policy against its opponent. The learnt policy would be different from the one learnt with the random opponent.
 
 *Exercise 1.2: Symmetries* Many tic-tac toe positions appear different but are the same because of symmetries. How might we amend the learning process decribed above to take advantage of this? In what ways wolud this change improve the learning process? Now think again. Suppose the opponent did not take advantage of symmetries. In that case, should we? Is it true, then, that symmetrically equivalent positions should necessarilly have the same value?
 
